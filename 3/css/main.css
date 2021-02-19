@@ -493,6 +493,8 @@ header .container .header__content .content__button:hover, header .container .he
 }
 
 .weAreDifferent .container .more h1 {
+  z-index: 6;
+  position: relative;
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
@@ -513,6 +515,7 @@ header .container .header__content .content__button:hover, header .container .he
 
 .weAreDifferent .container .more a {
   z-index: 6;
+  position: relative;
   cursor: pointer;
   padding: 0.8rem 2rem;
   border: 2px solid #fafafa;
@@ -550,6 +553,8 @@ footer .container {
 }
 
 footer .container .head {
+  z-index: 6;
+  position: relative;
   border-bottom: 2px solid #d1d1d1;
 }
 
@@ -582,6 +587,11 @@ footer .container .head li a:hover, footer .container .head li a:active, footer 
         -ms-flex-align: baseline;
             align-items: baseline;
   }
+}
+
+footer .container .links {
+  z-index: 6;
+  position: relative;
 }
 
 footer .container .links div h4 {
