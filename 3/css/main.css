@@ -233,6 +233,7 @@ header {
 }
 
 header .container {
+  z-index: 6;
   position: relative;
 }
 

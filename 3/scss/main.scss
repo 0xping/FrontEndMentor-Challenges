@@ -129,6 +129,7 @@ header {
   text-align: center;
   position: relative;
   .container {
+    z-index: 6;
     position: relative;
     @include breakpoint($md) {
       display: flex;
