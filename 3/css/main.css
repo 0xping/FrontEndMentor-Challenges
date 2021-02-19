@@ -76,11 +76,11 @@ a {
 }
 
 .nav {
+  z-index: 100;
+  position: fixed;
   background: #fafafa;
   width: 100%;
   padding: 0.8rem 1.5rem;
-  position: -webkit-sticky;
-  position: sticky;
 }
 
 .nav .container {
